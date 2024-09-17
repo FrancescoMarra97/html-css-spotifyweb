@@ -20,10 +20,12 @@ ul{
 .b-50{
         border-radius: 50%;
 }
+
 .row{
     display: flex;
     flex-wrap: wrap;
     margin: 0 -1rem;
+    padding-bottom: 2rem;
 }
 .col-2{
     width: calc((100%/12)*2);
@@ -38,7 +40,7 @@ ul{
 }
 .debug .sidebar{
     width: 230px;
-    height: 1036px;
+    height: 1201px;
 }
 .debug .col-2{
     background-color: red;
