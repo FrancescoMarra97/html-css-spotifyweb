@@ -134,6 +134,17 @@ div.genres.d-flex{
     color: #696969;
     padding-left: 1rem;
 }
+.txt3{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+.txt4{
+    color: #696969;
+    margin-top: 0.5rem;
+    font-size: 15px;
+    text-align: center;
+}
 /* bottom bar */
 .bottom_bar{
     background-color: #282828;
@@ -145,3 +156,9 @@ div.genres.d-flex{
 .clr{
     color: #696969
 }
+.h-320{
+    height: 320px;
+}
+
+/* query */
+
