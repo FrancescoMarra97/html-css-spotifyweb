@@ -47,10 +47,8 @@ i{
    
 }
 .debug .col-2{
-    background-color: red;
-    height: 170px;
-    width: 170px;
-    margin: 1.5em;;
+    
+    margin: 1.5em;
 }
 .debug .top_bar{
     width: 100%;
@@ -192,6 +190,11 @@ div.top_bar.d-flex{
 }
 
 /* query */
+@media screen and (max-width: 700px) {
+    .col-6-sm{
+        width: calc((100% /12)*6);
+    }
+}
 
 @media screen and (max-width: 1100px) {
     .col-3-md{
@@ -199,5 +202,4 @@ div.top_bar.d-flex{
     }    
 } 
     
-
 
