@@ -213,7 +213,18 @@ div.top_bar.d-flex{
 .clr{
     color: #696969
 }
-
+.n_p{
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+    margin: 0.5rem;
+}
+.n_p2{
+    width: 40px;
+    height: 40px;
+    filter: invert(1);
+    margin: 0.5rem;
+}
 .w-30{
     width: 30%;
     padding: 1rem 1rem 0rem;
@@ -235,6 +246,10 @@ div.top_bar.d-flex{
     a:hover{
     filter: brightness(1.4);
     }
+ .n_p2:hover{
+    transform: scale(1.1);
+    
+ }   
 
 .main-container img:hover{
     filter: opacity(0.1);
