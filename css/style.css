@@ -76,7 +76,7 @@ i{
 /* sidebar */
 .sidebar{
     background-color: #000000;
-    height: 100%;
+    height:calc(100% - 90px);
     width: 230px;
 }
 .logo{
@@ -89,6 +89,9 @@ i{
     margin: 0.5rem;
     list-style: none;
     text-decoration: none;
+}
+.new_playlist{
+    height: 100%;
 }
 .new_playlist ul a{
     color: #696969;
@@ -113,6 +116,7 @@ i{
     flex-direction: column;
    align-items:flex-start;
    justify-content: space-between; 
+   height: calc(100% - 200px);
     
 }
 div.sidebar{
@@ -144,7 +148,7 @@ div.genres.d-flex{
 
 .main-container{
     background-color: #141922;
-    width: calc(100%-230px);
+    width: calc(100% - 230px);
 }
 .txt{
     color: white;
@@ -221,6 +225,10 @@ div.top_bar.d-flex{
 @media screen and (max-width: 700px) {
     .col-6-sm{
         width: calc((100% /12)*6);
+    }
+    .row-s{
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 @media screen and (max-width: 600px) {
