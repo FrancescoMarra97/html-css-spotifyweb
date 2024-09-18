@@ -40,7 +40,7 @@ ul{
 }
 .debug .sidebar{
     width: 230px;
-    height: 1201px;
+    height: 1281px;
 }
 .debug .col-2{
     background-color: red;
@@ -147,10 +147,29 @@ div.genres.d-flex{
     font-size: 15px;
     text-align: center;
 }
+div.top_bar.d-flex{
+    max-width: 100%;
+}
 /* bottom bar */
 .bottom_bar{
     background-color: #282828;
     
+}
+.song{
+    text-align: left;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}   
+.txt5{
+    font-size: 15px;
+    color: white;
+    border:0;
+
+}
+.txt6{
+    font-size: 10px;
+    color: #696969;
+    border:0;
 }
 
 /* occurance */
@@ -161,6 +180,11 @@ div.genres.d-flex{
 .h-320{
     height: 320px;
 }
+.w-30{
+    width: 80px;
+}
 
 /* query */
+
+
 
