@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
-<body class="debug">
+<body class="debu">
  <div class="d-flex">
     <div class="sidebar">
         <div class="logo">
@@ -16,32 +17,32 @@
         </div>
         <nav class="navigation">
             <ul>
-                <li><i class="fa fa-home"></i><a href="#">Home</a> </li>
-                <li><i class="fa fa-search"></i><a href="#">Cerca</a> </li>
-                <li><i class="fas fa-swatchbook"></i><a href="#">La tua libreria</a></li>
+                <li><a href="#"><img src="./img/home.svg"  alt="" srcset=""> <span class="txt-s"> Home</span></a></li>
+                <li><a href="#"><img src="./img/search.svg" alt=""><span class="txt-s"> Cerca </span></a> </li>
+                <li><a href="#"><img src="./img/libreria.svg" alt=""><span class="txt-s"> La tua libreria </span></a></li>
             </ul>
         </nav>
         <div class="new_playlist">
-            <h4>Playlist</h4>
+            <h4 class="txt-s">Playlist</h4>
             <div class="container-small">
                 <div class="tp_sidebar">
                     <nav>
                         <ul>
-                            <li><a href=""><i></i>Crea Playlist</a></li>
-                            <li><a href="#">Nome Playlist</a></li>
-                            <li><a href="#">Nome Playlist</a></li>
-                            <li><a href="#">Nome Playlist</a></li>
-                            <li><a href="#">Nome Playlist</a></li>
-                            <li><a href="#">Nome Playlist</a></li>
-                            <li><a href="#">Nome Playlist</a></li>
-                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href=""> <span class="txt-s"><i class="fa fa-plus-square" style="font-size:18px; color: #696969;"></i> Crea Playlist</a></span></li>
+                            <li><a href="#"><span class="txt-s">Nome Playlist</span></a></li>
+                            <li><a href="#"><span class="txt-s">Nome Playlist</span></a></li>
+                            <li><a href="#"><span class="txt-s">Nome Playlist</span></a></li>
+                            <li><a href="#"><span class="txt-s">Nome Playlist</span></a></li>
+                            <li><a href="#"><span class="txt-s">Nome Playlist</span></a></li>
+                            <li><a href="#"><span class="txt-s">Nome Playlist</span></a></li>
+                            <li><a href="#"><span class="txt-s">Nome Playlist</span></a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="btm_sidebar">
-                    <p class="m-left"><i></i>Installa app</p>
+                    <p class=""><img src="./img/download.svg" alt=""><span class="txt-s"> Installa app</span></p>
                     <hr class="clr">
-                    <p class="m-left"><i></i><strong>John Doe</strong></p>
+                    <p class=""><img src="./img/profile.svg" alt=""><span class="txt-s"> <strong> John Doe</strong></span></p>
                 </div>    
             </div>
         </div>
@@ -53,8 +54,8 @@
         <div class="container">
             <div class="genres d-flex">
                 <nav>
-                    <ul class="d-flex">
-                        <li><a href="#"></a> IN EVIDENZA</li>
+                    <ul class="d-flex row-s">
+                        <li><a href="#">IN EVIDENZA</a> </li>
                         <li><a href="#"></a> PODCAST</li>
                         <li><a href="#"></a> CLASSIFICHE</li>
                         <li><a href="#"></a> GENERI E MOOD</li>
@@ -64,33 +65,33 @@
                 </nav>
             </div>
             <h3 class="txt">Recently Played</h3>
-            <div class="row">
-                <div class="col-2 col-3-md col-6-sm">
+            <div class="row row-md">
+                <div class="col-2 col-3-md col-6-sm p-1">
                     <img src="./img/metal_lifting.jpg" alt="">
                     <h3 class="txt3">Heavy Metal</h3>
                     <p class="txt4">Subtitle</p>
                 </div>
-                <div class="col-2 col-3-md col-6-sm">
+                <div class="col-2 col-3-md col-6-sm p-1">
                     <img src="./img/stranger.jpeg" alt="">
                     <h3 class="txt3"> Stranger Things, Vol.1 (A Netflix Original Series Soundtrack )</h3>
                     <p class="txt4">Kyle Dixon & Micheal Stein</p>
                 </div>
-                <div class="col-2 col-3-md col-6-sm">
+                <div class="col-2 col-3-md col-6-sm p-1">
                     <img src="./img/aquietplace.jpeg" alt="">
                     <h3 class="txt3">A Quite place</h3>
                     <p class="txt4">Subtitle</p>
                 </div>
-                <div class="col-2 col-3-md col-6-sm">
+                <div class="col-2 col-3-md col-6-sm p-1">
                     <img src="./img/split.jpeg" alt="">
                     <h3 class="txt3">Split</h3>
                     <p class="txt4">Subtitle</p>
                 </div>
-                <div class="col-2 col-3-md col-6-sm">
+                <div class="col-2 col-3-md col-6-sm p-1">
                     <img src="./img/cure.jpeg" alt="">
                     <h3 class="txt3">A cure of wellness</h3>
                     <p class="txt4">Subtitle</p>
                 </div>
-                <div class="col-2 col-3-md col-6-sm">
+                <div class="col-2 col-3-md col-6-sm p-1">
                     <img src="./img/sinister.jpeg" alt="">
                     <h3 class="txt3">Sinister</h3>
                     <p class="txt4">Subtitle</p>
@@ -103,11 +104,11 @@
             <h3 class="txt">Creato per John Doe</h3>
             <p class="txt2">Più ascolti,più accurati saranno i suggerimenti. </p>
             <div class="row">
-                <div class="col-2 col-3-md col-6-sm">
+                <div class="col-2 col-3-md col-6-sm p-1">
                     <img src="./img/radar.jpeg" alt="">
                     <h3 class="txt3">Release Radar</h3>
                 </div>
-                <div class="col-2 col-3-md col-6-sm">
+                <div class="col-2 col-3-md col-6-sm p-1">
                     <img src="./img/mixdaily.jpeg" alt="">
                     <h3 class="txt3">Daily Mix</h3>
                 </div>
@@ -117,11 +118,11 @@
         <h3 class="txt">Artisti più popolari</h3>
         <p class="txt2">Più ascolti,più accurati saranno i suggerimenti.</p>
         <div class="row">
-            <div class="col-2 b-50 col-3-md col-6-sm">
+            <div class="col-2 b-50 col-3-md col-6-sm p-1">
                 <img src="./img/youg.jpeg" class="b-50" alt="">
                 <h3 class="txt3">Lana Del Rey</h3>
             </div>
-            <div class="col-2 b-50 col-3-md col-6-sm">
+            <div class="col-2 b-50 col-3-md col-6-sm p-1">
                 <img src="./img/einaudi.jpeg" class="b-50" alt="">
                 <h3 class="txt3">Ludovico Einaudi</h3>
             </div>
@@ -136,9 +137,9 @@
                     <span class="txt5 m-top">Sinister</span><br>
                     <span class="txt6">brano nome</span>
                 </div>
-                <div>    
-                    <span>hearts</span>
-                    <span>cartella</span>
+                <div class="icons">    
+                    <span><i class="fa fa-heart" style="font-size:18px"></i></span>
+                    <span><i class="fa fa-folder" style="font-size:18px"></i></span>
                 </div>
             </div>
            
