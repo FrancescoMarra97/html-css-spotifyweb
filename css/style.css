@@ -200,7 +200,9 @@ div.top_bar.d-flex{
 }
 
 /* occurance */
-
+.d-n{
+    display: none;
+}
 .clr{
     color: #696969
 }
@@ -246,6 +248,18 @@ div.top_bar.d-flex{
         display: flex;
         flex-direction: column;
     }
+    .big{
+        width: 25px;
+
+    }
+    .main-container{
+        width: calc(100% - 50px);
+    }
+    .d-n{
+        display: block;
+        margin-left: 0.5rem;
+    }
+    
 }
 
     
