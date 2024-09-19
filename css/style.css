@@ -251,7 +251,7 @@ div.top_bar.d-flex{
 .b-b{
     border-bottom: 1px solid #adff2f;
 }
-div .playbutton i{
+ .playbutton i{
     display: none;
     position:absolute;
     top: 40%;
@@ -328,7 +328,7 @@ div .right .fa{
     
  }  
  
- div .playbutton:hover{
+.playbutton:hover i{
     display: block;
  }
 
@@ -341,17 +341,7 @@ div .right .fa{
 }
 
 /* query */
-@media screen and (max-width: 1200px) {
-    .progress-bar-md{
-        width: 200px;
-    }
-   .vol{
-    font-size: 16px;
-   }
-   .progress-bar2-md{
-    width: 100px;
-   }
-}
+
 
 @media screen and (max-width: 1100px) {
     .row-md{
