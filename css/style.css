@@ -341,6 +341,17 @@ div .right .fa{
 }
 
 /* query */
+@media screen and (max-width: 1200px) {
+    .progress-bar-md{
+        width: 200px;
+    }
+   .vol{
+    font-size: 16px;
+   }
+   .progress-bar2-md{
+    width: 100px;
+   }
+}
 
 @media screen and (max-width: 1100px) {
     .row-md{
@@ -364,13 +375,34 @@ div .right .fa{
     .progress-bar-md{
         width: 200px;
     }
-   .div .right .fa{
+   .vol{
     font-size: 16px;
    }
    .progress-bar2-md{
     width: 100px;
    }
 } 
+
+@media screen and (max-width: 992px) and (min-width:601px) {
+    .progress-bar-mmd{
+        width: 100px;
+    }
+    .progress-bar2-mmd{
+        width: 50px;
+    }
+    @media screen and (min-width: 780px) {
+        .progress-bar-mmsd{
+            justify-content: center;
+            width: 80px;
+        }
+        .progress-bar2-mmsd{
+            width: 40px;
+        }
+        .vol{
+            font-size: 12px;
+        }
+    }
+}
 @media screen and (max-width: 700px) {
     .col-6-sm{
         width: calc((100% /12)*6);
@@ -379,7 +411,9 @@ div .right .fa{
         flex-wrap: wrap;
         justify-content: center;
     }
+    
 }
+
 @media screen and (max-width: 600px) {
     .row-s{
         flex-wrap: wrap;
@@ -394,6 +428,7 @@ div .right .fa{
     .icons{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     .big{
         width: 25px;
@@ -406,7 +441,21 @@ div .right .fa{
         display: block;
         margin-left: 0.5rem;
     }
+    .w-15{
+        width: 15%;
+    }
     
+    .progress-bar-sm{
+        width: 60px;
+    }
+    .row-sm{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .progress-bar2-sm{
+        width: 40px;
+    }
 }
 
     
