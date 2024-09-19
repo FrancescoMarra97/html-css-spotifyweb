@@ -438,10 +438,7 @@ div .right .fa{
     .progress-bar-sm{
         width: 60px;
     }
-    .row-sm{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+    
 
     .progress-bar2-sm{
         width: 40px;
