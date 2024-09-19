@@ -210,6 +210,20 @@ div.top_bar.d-flex{
 .d-n{
     display: none;
 }
+.p-r{
+    position: relative;
+    
+}
+.d-n2{
+    display:none;
+    filter: invert(1);
+    width: 80px;
+    position:absolute;
+    top: 25%;
+    left: 30%;
+    bottom: 25%;
+    
+}
 .clr{
     color: #696969
 }
@@ -249,11 +263,17 @@ div.top_bar.d-flex{
  .n_p2:hover{
     transform: scale(1.1);
     
- }   
+ }  
+ 
+ div .d-n2:hover{
+    display:block;
+    
+ } 
 
 .main-container img:hover{
     filter: opacity(0.1);
 }
+
 /* query */
 
 @media screen and (max-width: 1100px) {
