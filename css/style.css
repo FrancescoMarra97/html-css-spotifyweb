@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 body{
-    /* overflow: hidden;
-    height: calc(100vh);  */
+    overflow: hidden;
+    height:100vh;  
 }
 li img{
     width: 18px;
@@ -37,6 +37,7 @@ ul{
 }
 .d-flex{
     display: flex;
+    height: calc(100% - 100px);
 }
 .justify-content-between{
     justify-content: space-between;
@@ -87,7 +88,7 @@ i{
 /* sidebar */
 .sidebar{
     background-color: #000000;
-    height:calc(100% - 90px);
+    height:100%;
     width: 230px;
 }
 .logo{
@@ -162,6 +163,9 @@ div.genres.d-flex{
 .main-container{
     background-color: #141922;
     width: calc(100% - 90px);
+    height: 100%;
+    overflow-y: scroll;
+    
 }
 .txt{
     color: white;
@@ -191,6 +195,7 @@ div.top_bar.d-flex{
     background-color: #282828;
     width: 100%;
     height: 100px;
+    position: fixed;
     
 }
 .song{
@@ -210,6 +215,11 @@ div.top_bar.d-flex{
 }
 .icons{
    margin-top: 2rem;
+}
+.right{
+    align-items: center;
+    padding-right: 1rem;
+    height: 100px;
 }
 
 /* occurance */
@@ -238,14 +248,14 @@ div .playbutton i{
     color: #696969
 }
 .n_p{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     filter: invert(1);
     margin: 0.5rem;
 }
 .n_p2{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     filter: invert(1);
     margin: 0.5rem;
 }
