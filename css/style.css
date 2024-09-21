@@ -392,18 +392,7 @@ div .right .fa{
         height: 100px;
     }
 }
-@media screen and (min-width: 780px) {
-        .progress-bar-mmsd{
-            justify-content: center;
-            width: 80px;
-        }
-        .progress-bar2-mmsd{
-            width: 40px;
-        }
-        .vol{
-            font-size: 12px;
-        }
-    }
+
     @media screen and (max-width: 741px) and (min-width: 701px) {
         .progress-bar-mmd{
             width: 200px;
@@ -438,14 +427,12 @@ div .right .fa{
     }
 }
 @media screen and (max-width:699px) and (min-width: 601px) {
-    .progress-bar-sm{
-        width: 150px;
-    }
+   
     .progress-bar-sm {
-        width: 130px;
+        width: 120px;
     }
     div .right .fa {
-        font-size: medium;
+        font-size: 20px;
     }
 }
 @media screen and (max-width: 600px) {
