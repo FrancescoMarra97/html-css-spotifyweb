@@ -53,7 +53,7 @@ i{
 .row{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -1rem;
+    margin: 0 ;
     padding-bottom: 2rem;
 }
 .col-2{
@@ -380,7 +380,9 @@ div .right .fa{
     .progress-bar2-mmd{
         width: 50px;
     }
-    @media screen and (min-width: 780px) {
+    
+}
+@media screen and (min-width: 780px) {
         .progress-bar-mmsd{
             justify-content: center;
             width: 80px;
@@ -392,7 +394,6 @@ div .right .fa{
             font-size: 12px;
         }
     }
-}
 @media screen and (max-width: 700px) {
     .col-6-sm{
         width: calc((100% /12)*6);
