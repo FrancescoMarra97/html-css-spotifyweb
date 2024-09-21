@@ -47,7 +47,7 @@ ul{
 }
 i{
     color: white;
-    padding-left: 1rem;
+    
 }
 
 .row{
@@ -274,11 +274,8 @@ div.top_bar.d-flex{
     filter: invert(1);
     margin: 0.5rem;
 }
-.w-30{
-    width: 30%;
-   
-    margin-left: 1rem;
-    
+.wh-100{
+    width: 100px;
 }
 .p-1{
     padding: 1rem;
@@ -313,6 +310,7 @@ div .right .fa{
     font-size: 24px;
 }
 
+
 /* hover */
 .btn:hover { 
     filter: brightness(1.4)
@@ -342,7 +340,12 @@ div .right .fa{
 
 /* query */
 
-
+@media screen and (max-width: 1206px) {
+    .wh-100{
+        width: 100px;
+        height: 100px;
+    }
+}
 @media screen and (max-width: 1100px) {
     .row-md{
         flex-wrap: wrap;
@@ -352,18 +355,18 @@ div .right .fa{
     }    
     
     .n_p{
-        width: 15px;
-        height: 15px;
-    }
-    .n_p2{
         width: 20px;
         height: 20px;
+    }
+    .n_p2{
+        width: 30px;
+        height: 30px;
     }
     .time{
         font-size: 12px;
     }
     .progress-bar-md{
-        width: 200px;
+        width: 250px;
     }
    .vol{
     font-size: 16px;
@@ -371,16 +374,23 @@ div .right .fa{
    .progress-bar2-md{
     width: 100px;
    }
+   .wh-100{
+    width: 100px;
+    height: 100px;
+   }
 } 
 
 @media screen and (max-width: 992px) and (min-width:601px) {
     .progress-bar-mmd{
-        width: 100px;
+        width: 250px;
     }
     .progress-bar2-mmd{
-        width: 50px;
+        width: 80px;
     }
-    
+    .wh-100{
+        width: 100px;
+        height: 100px;
+    }
 }
 @media screen and (min-width: 780px) {
         .progress-bar-mmsd{
@@ -394,6 +404,12 @@ div .right .fa{
             font-size: 12px;
         }
     }
+    @media screen and (max-width: 741px) and (min-width: 701px) {
+        .progress-bar-mmd{
+            width: 200px;
+        }
+        
+    }
 @media screen and (max-width: 700px) {
     .col-6-sm{
         width: calc((100% /12)*6);
@@ -402,9 +418,36 @@ div .right .fa{
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+    .wh-100{
+        width: 100px;
+        height: 100px;
+    }
+    .nav_player{
+        margin-right:0;
+    }
+    .progress-bar-s{
+        width: 200px;
+    }
+    .n_p{
+        width: 20px;
+        height: 20px;
+    }
+    .n_p2{
+        width: 30px;
+        height: 30px;
+    }
 }
-
+@media screen and (max-width:699px) and (min-width: 601px) {
+    .progress-bar-sm{
+        width: 150px;
+    }
+    .progress-bar-sm {
+        width: 130px;
+    }
+    div .right .fa {
+        font-size: medium;
+    }
+}
 @media screen and (max-width: 600px) {
     .row-s{
         flex-wrap: wrap;
@@ -432,18 +475,28 @@ div .right .fa{
         display: block;
         margin-left: 0.5rem;
     }
-    .w-15{
-        width: 15%;
+    .wh-100{
+        width: 100px;
+        height: 100px;
     }
     
     .progress-bar-sm{
-        width: 60px;
+        width: 150px;
     }
-    
+    .btm_sidebar{
+        align-self: center;
+    }
 
     .progress-bar2-sm{
         width: 40px;
     }
+    .nav_player{
+        margin-right:0;
+    }
+    div .right .fa {
+        font-size: medium;
+    }
+
 }
 
     
